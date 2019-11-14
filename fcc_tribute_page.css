@@ -1,0 +1,56 @@
+body {
+ font-family: 'Open Sans', sans-serif;
+  text-align: center; 
+  border: solid;
+  border-color: rgba(200,100,100,1);
+  background-color: ;
+}
+
+h1 {
+  font-size: 48px;
+  color: rgba(200,100,100,1);
+  font-family: 'Montserrat', sans-serif;
+  margin: auto;
+  padding-top: 1%;
+}
+
+h2 {
+  font-size: 18px;
+  font-weight: 200;
+  color: rgba(200,100,100,1);
+}
+
+#header {
+  
+}
+
+figure {
+  img-align: center;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+p {
+  text-align: left;
+  padding-left: 5%;
+}
+
+ul  {
+  text-align: left;
+  list-style-position: inside;
+}
+
+ul li {
+  padding: 5px 5px 5px 5px;
+}
+
+#call-to-action {
+  text-align: center;
+  font-weight: 600;
+}
