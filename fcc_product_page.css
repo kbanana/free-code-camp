@@ -1,0 +1,149 @@
+.nav-bar {
+    display: block;
+}
+
+.nav-bar a::after {
+    display: inline-block;
+    color: #000;
+    font-size: 80%;
+    font-weight: bold;
+    padding: 0 3px;
+}
+
+header {
+  position: fixed;
+  top: 0;
+  min-height: 75px;
+  padding: 0px 20px;
+  display: flex;
+  justify-content: space-around;
+  background-color: #FFF;
+  width: 100%;
+}
+
+@media (max-width: 600px) {
+  header {
+    flex-wrap: wrap;
+  }
+}
+
+.logo {
+  width: 60vw;
+}
+
+@media (max-width: 650px) {
+  .logo {
+    margin-top: 15px;
+    width: 100%;
+    position: relative;
+  }
+}
+
+.logo > img {
+  width: 100%;
+  height: 100%;
+  max-width: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-left: 20px;
+}
+
+@media (max-width: 650px) {
+  .logo > img {
+    margin: 0 auto;
+  }
+}
+
+nav {
+  font-weight: 400;
+}
+
+@media (max-width: 650px) {
+  nav {
+    margin-top: 10px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 0 50px;
+  }
+  nav li {
+    padding-bottom: 5px;
+    list-style-type: none;
+  }
+}
+
+nav > ul {
+  width: 35vw;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+@media (max-width: 650px) {
+  nav > ul {
+    flex-direction: column;
+  }
+}
+
+h1 {
+  font-family: 'Bowlby One SC', cursive;
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+    background-color: #eee;
+}
+
+#form-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+header {
+  border: 2px solid;
+}
+
+a {
+  color: #000;
+  text-decoration: none;
+}
+
+#form-section input[type="email"] {
+  max-width: 275px;
+  width: 100%;
+  padding-top: 10px;
+  padding: 5px 5px 5px 5px;
+  margin: auto;
+}
+
+#form-section input[type="submit"] {
+  max-width: 150px;
+  width: 100%;
+  height: 30px;
+  margin: 15px 0;
+  border: 0;
+  background-color: #f1c40f;
+}
+
+#email-label {
+  margin-bottom: 15px;
+}
+
+.awesome {
+  font-weight: 700;
+}
+
+li {
+  list-style-type: none;
+}
+
+div {
+  padding-left: 5%;
+  padding-right: 5%;
+}
