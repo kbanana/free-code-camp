@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+  <link href="https://fonts.googleapis.com/css?family=Lato|Raleway&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="fcc_survey_form.css">
+  <title>FCC: Survey Form</title>
+</head>
+<body>
+<header>
+  <h1 id="title">Private Yoga Session Request Form</h1>
+  <p id="description">Interested in scheduling a private yoga session? Please complete this short form below. </p>
+</header>
+  <form id="survey-form" action="">
+    <div id="name-input" class="text">
+    <label id="name-label" for="name">Name</label><br>
+      <input id="name" type="text" placeholder="Enter your name" required></div>
+    <div id="email-input" class="text">
+    <label id="email-label" for="email">Email</label><br>
+    <input id="email" type="email" placeholder="Enter your email" required></div>
+    <div id="age-input" class="text">
+    <label id="number-label" for="age">Age (optional)</label><br>
+    <input id="number" type="number" min=18 max=100 placeholder="Age"></div>
+    <div id="gender-input" class="radio">
+    <p>Your gender*</p>
+    <label id="gender-label-1" for="male">Male</label>
+    <input id="male" name="gender" type="radio" value="male"></input>
+  <label id="gender-label-2" for="female">Female</label>
+    <input id="female" name="gender" type="radio" value="female"></input>
+  <label id="gender-label-3"  for="other">Other</label>
+    <input id="other" name="gender" type="radio" value="other"></input>
+  </div>
+<div id="pronoun-input" class="dropdown-list">
+  <label id="pronouns-label" for="dropdown" multiple>Pronouns</label></div>
+    <select name="pronouns" id="dropdown">
+      <option value=""></option>
+      <option value="He-him">He/him</option>
+      <option value="she-her">She/her</option>
+      <option value="they-them">They/them</option>
+      <option value="other">Other</option>
+</select></div>
+<div id="pregnant" class="radio">
+    <p>Are you pregnant or seeking to become pregnant?</p>
+    <label id="pregnant-yes-label" for="Yes">Yes</label>
+    <input id="Yes" name="preg" type="radio" value="yes"></input>
+  <label id="pregnant-no-label" for="preg-no">No</label>
+<input id="preg-no" name="preg" type="radio" value="no"></input></div>
+<div id="goal-input" class="checkboxes">
+    <label id="goal-label" for="goal">What are some of your goals for private yoga sessions? </label><span class="clue">(Check all that apply)</span><br>
+      <input type="checkbox" id="we-ght" name="weight" value="weight-loss"></input>
+<label for="weight" id="weight-label">Lose weight</label><br>
+      <input type="checkbox" id="modify" name="modify" value="modify"></input>
+<label for="modify" id="modify-label">Receive custom modifications for injury or my anatomy</label><br>
+      <input type="checkbox" id="confidence" name="confidence" value="confidence"></input>
+<label for="confidence" id="confidence-label">Gain confidence in my practice and my body</label><br>
+      <input type="checkbox" id="deepen" name="deepen" value="deepen"></input>
+<label for="deepen" id="deepen-label">Deepen my current yoga practice (i.e. "level up")</label><br>
+      <input type="checkbox" id="privacy" name="privacy" value="privacy"></input>
+<label for="privacy" id="privacy-label">I prefer private sessions to group classes</label><br>
+      <input type="checkbox" id="other" name="other" value="other"></input>
+<label for="Other" id="other-goal-label">Other</label></div>
+<div id="injury-input">
+  <label for="injuries" id="injuries-label">Please list any current or previous injuries or illness that may impact a private session.</label><br>
+  <textarea name="injuries" id="injuries" cols="30" rows="10"></textarea>
+</div>
+<div id="comments-input">
+  <label for="comments" id="comments-label">Comments</label><br><span class="clue">(Please include any additional detail on your goals or information I should know prior to a preliminary session)</span><br>
+  <textarea name="comments" id="comments" cols="30" rows="10"></textarea>
+</div>
+<button id="submit" value="click">Submit</button>
+  </form>
+<div id="footnote">
+  <p>*All genders are welcome.  This information is used for the purpose of creating custom modifications for your individual anatomy. Student comfort and safety are the highest priority.</p>
+</div>
+</body>
+</html>
