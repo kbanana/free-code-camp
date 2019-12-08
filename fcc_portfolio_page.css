@@ -1,0 +1,116 @@
+/* 1200px / 16px = 75em */
+@media (max-width: 75em) {
+  html {
+    font-size: 60%;
+  }
+}
+
+/* 980px / 16px = 61.25em */
+@media (max-width: 61.25em) {
+  html {
+    font-size: 58%;
+  }
+}
+
+/* 460px / 16px = 28.75em */
+@media (max-width: 28.75em) {
+  html {
+    font-size: 55%;
+  }
+}
+
+body {
+ margin: 0; 
+ font-size: 16px;
+ background-color: #000000;
+ color: #ffffff;
+}
+
+section {
+  margin: auto;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+#welcome-section {
+  width: 100%;
+  height: 100vh;
+}
+
+#welcome-section h1 {
+  font-size: 75px;
+}
+
+nav {
+  margin: auto;
+  padding; 5px;
+  display: flex;
+  background-color: #800020;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  justify-content: flex-end;
+}
+
+
+.navlink {
+  margin: 15px;
+  padding: 5px 5px 5px 5px;
+  color: #fff;
+  text-decoration: none;
+  font-family: 'Poppins', sans-serif;
+}
+
+h1, h2, h3 {
+  font-family: 'Poppins', sans-serif;
+  text-align: center;
+  font-size: 24px;
+}
+
+p {
+  font-family: 'Roboto', sans-serif;
+}
+
+@media (max-width: 28.75em) {
+  .nav {
+    justify-content: center;
+  }
+  
+.project-tile {
+    margin: auto;
+    padding; 5px;
+    display: inline;
+    padding-right: 3rem;
+    white-space: nowrap;
+    position: sticky;
+    width: 100%;
+    font-family: 'Poppins', sans-serif;
+  }
+  
+li a {
+    text-decoration: none;
+  }
+  
+.projects-grid {
+  display: flex;
+}
+
+@media (max-width: 30.625em) {
+  .projects-section {
+    padding: 6rem 1rem;
+  }
+}
+  
+#projects {
+  background-color: #E0FFFF; 
+  padding-top: 5px;
+  padding-bottom: 5px;
+  }
+  
+#projects h2 {
+    color: #000000;
+  }
+  
+  #contact h3 {
+    font-size: 16px;
+  }
